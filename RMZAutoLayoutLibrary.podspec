@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  AutoLayout add sub view
                    DESC
 
   s.homepage     = "https://github.com/reiya/RMZAutoLayout"
@@ -39,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
   #s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "LICENSE.txt" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -52,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "matsuki-reiya" => "" }
+  s.author             = { "matsuki-reiya" => "reiya.matsuki.1990.09.23@gmail.com" }
   # Or just: s.author    = "matsuki-reiya"
   # s.authors            = { "matsuki-reiya" => "" }
   # s.social_media_url   = "http://twitter.com/matsuki-reiya"
@@ -67,7 +68,7 @@ Pod::Spec.new do |s|
   #s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
-  #s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "8.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -90,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/*.swift"
+  s.source_files  = "RMZAutoLayout", "RMZAutoLayout/**/*.swift"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
