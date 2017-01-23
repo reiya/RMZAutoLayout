@@ -8,17 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5B5B4DF71E35CA0100536604 /* RMZAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA11F021E35AE850019D375 /* RMZAutoLayout.swift */; };
-		5B5B4DF81E35CA0100536604 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA11ED01E35A1540019D375 /* ViewController.swift */; };
-		5B5B4DF91E35CA0100536604 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA11ECE1E35A1540019D375 /* AppDelegate.swift */; };
-		5B5B4DFC1E35CA0100536604 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA11ED71E35A1540019D375 /* LaunchScreen.storyboard */; };
 		5B5B4DFD1E35CA0100536604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA11ED51E35A1540019D375 /* Assets.xcassets */; };
-		5B5B4DFE1E35CA0100536604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA11ED21E35A1540019D375 /* Main.storyboard */; };
 		5B5B4E051E35CB2700536604 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5B5B4E041E35CB2700536604 /* Podfile */; };
-		5BA11ECF1E35A1540019D375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA11ECE1E35A1540019D375 /* AppDelegate.swift */; };
-		5BA11ED11E35A1540019D375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA11ED01E35A1540019D375 /* ViewController.swift */; };
-		5BA11ED41E35A1540019D375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA11ED21E35A1540019D375 /* Main.storyboard */; };
 		5BA11ED61E35A1540019D375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA11ED51E35A1540019D375 /* Assets.xcassets */; };
-		5BA11ED91E35A1540019D375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA11ED71E35A1540019D375 /* LaunchScreen.storyboard */; };
 		5BA11EE41E35A1540019D375 /* RMZAutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA11EE31E35A1540019D375 /* RMZAutoLayoutTests.swift */; };
 		5BA11EEF1E35A1540019D375 /* RMZAutoLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA11EEE1E35A1540019D375 /* RMZAutoLayoutUITests.swift */; };
 		5BA11F031E35AE850019D375 /* RMZAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA11F021E35AE850019D375 /* RMZAutoLayout.swift */; };
@@ -46,11 +38,7 @@
 		5B5B4E031E35CA0200536604 /* RMZAutoLayout DEMO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RMZAutoLayout DEMO-Info.plist"; path = "/Users/matsuki-reiya/Documents/cocoapod/RMZAutoLayout/RMZAutoLayout DEMO-Info.plist"; sourceTree = "<absolute>"; };
 		5B5B4E041E35CB2700536604 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		5BA11ECB1E35A1540019D375 /* RMZAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMZAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BA11ECE1E35A1540019D375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BA11ED01E35A1540019D375 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5BA11ED31E35A1540019D375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BA11ED51E35A1540019D375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RMZAutoLayout/Assets.xcassets; sourceTree = "<group>"; };
-		5BA11ED81E35A1540019D375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA11EDA1E35A1540019D375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = RMZAutoLayout/Info.plist; sourceTree = "<group>"; };
 		5BA11EDF1E35A1540019D375 /* RMZAutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMZAutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA11EE31E35A1540019D375 /* RMZAutoLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMZAutoLayoutTests.swift; sourceTree = "<group>"; };
@@ -119,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				5BA11F021E35AE850019D375 /* RMZAutoLayout.swift */,
-				5BA11EFC1E35A1680019D375 /* ios */,
 			);
 			name = Classes;
 			path = RMZAutoLayout;
@@ -143,16 +130,6 @@
 			path = RMZAutoLayoutUITests;
 			sourceTree = "<group>";
 		};
-		5BA11EFC1E35A1680019D375 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				5BA11ECE1E35A1540019D375 /* AppDelegate.swift */,
-				5BA11ED01E35A1540019D375 /* ViewController.swift */,
-				5BA11EFF1E35A1EC0019D375 /* StoryBoard */,
-			);
-			name = ios;
-			sourceTree = "<group>";
-		};
 		5BA11EFE1E35A17C0019D375 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,15 +139,6 @@
 				5BA11ED51E35A1540019D375 /* Assets.xcassets */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		5BA11EFF1E35A1EC0019D375 /* StoryBoard */ = {
-			isa = PBXGroup;
-			children = (
-				5BA11ED21E35A1540019D375 /* Main.storyboard */,
-				5BA11ED71E35A1540019D375 /* LaunchScreen.storyboard */,
-			);
-			name = StoryBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,10 +272,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B5B4DFC1E35CA0100536604 /* LaunchScreen.storyboard in Resources */,
 				5B5B4DFD1E35CA0100536604 /* Assets.xcassets in Resources */,
 				5B5B4E051E35CB2700536604 /* Podfile in Resources */,
-				5B5B4DFE1E35CA0100536604 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,9 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA11ED91E35A1540019D375 /* LaunchScreen.storyboard in Resources */,
 				5BA11ED61E35A1540019D375 /* Assets.xcassets in Resources */,
-				5BA11ED41E35A1540019D375 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,8 +307,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B5B4DF71E35CA0100536604 /* RMZAutoLayout.swift in Sources */,
-				5B5B4DF81E35CA0100536604 /* ViewController.swift in Sources */,
-				5B5B4DF91E35CA0100536604 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,8 +315,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA11F031E35AE850019D375 /* RMZAutoLayout.swift in Sources */,
-				5BA11ED11E35A1540019D375 /* ViewController.swift in Sources */,
-				5BA11ECF1E35A1540019D375 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,25 +348,6 @@
 			targetProxy = 5BA11EEB1E35A1540019D375 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5BA11ED21E35A1540019D375 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BA11ED31E35A1540019D375 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5BA11ED71E35A1540019D375 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BA11ED81E35A1540019D375 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5B5B4E001E35CA0100536604 /* Debug */ = {
