@@ -14,7 +14,7 @@
 		5BA11ED91E35A1540019D375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA11ED71E35A1540019D375 /* LaunchScreen.storyboard */; };
 		5BA11EE41E35A1540019D375 /* RMZAutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA11EE31E35A1540019D375 /* RMZAutoLayoutTests.swift */; };
 		5BA11EEF1E35A1540019D375 /* RMZAutoLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA11EEE1E35A1540019D375 /* RMZAutoLayoutUITests.swift */; };
-		5BA11F011E35ABCA0019D375 /* RMZAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA11F001E35ABCA0019D375 /* RMZAutoLayout.swift */; };
+		5BA11F031E35AE850019D375 /* RMZAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA11F021E35AE850019D375 /* RMZAutoLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		5BA11EEA1E35A1540019D375 /* RMZAutoLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMZAutoLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA11EEE1E35A1540019D375 /* RMZAutoLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMZAutoLayoutUITests.swift; sourceTree = "<group>"; };
 		5BA11EF01E35A1540019D375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BA11F001E35ABCA0019D375 /* RMZAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMZAutoLayout.swift; sourceTree = "<group>"; };
+		5BA11F021E35AE850019D375 /* RMZAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RMZAutoLayout.swift; path = Classes/RMZAutoLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 		5BA11ECD1E35A1540019D375 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5BA11F021E35AE850019D375 /* RMZAutoLayout.swift */,
 				5BA11EFC1E35A1680019D375 /* ios */,
-				5BA11F001E35ABCA0019D375 /* RMZAutoLayout.swift */,
 			);
 			name = Classes;
 			path = RMZAutoLayout;
@@ -290,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA11F011E35ABCA0019D375 /* RMZAutoLayout.swift in Sources */,
+				5BA11F031E35AE850019D375 /* RMZAutoLayout.swift in Sources */,
 				5BA11ED11E35A1540019D375 /* ViewController.swift in Sources */,
 				5BA11ECF1E35A1540019D375 /* AppDelegate.swift in Sources */,
 			);
