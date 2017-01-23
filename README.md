@@ -1,0 +1,2 @@
+# RMZAutoLayout
+UIViewを追加するときにcodeで生成したViewをオートレイアウトに対応した状態で乗せることができます。
